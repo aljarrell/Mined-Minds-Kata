@@ -11,5 +11,8 @@ class My_test < Minitest::Test
     def test_three
       assert_equal("mined",mmkata(3))
     end
+    def test_four
+        assert_equal("mined_minds",fizz(15))
+    end
 
 end
