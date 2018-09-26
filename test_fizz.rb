@@ -14,5 +14,7 @@ class My_test < Minitest::Test
     def test_four
         assert_equal("mined_minds",fizz(15))
     end
-
+    def test_five
+        assert_equal("mined",fizz(6))
+    end
 end
