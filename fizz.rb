@@ -11,7 +11,9 @@ def fizz(buzz)
     "mined_minds"
   elsif buzz % 3 == 0
     "mined"
-  else buzz % 5 == 0
+  elsif buzz % 5 == 0
     "minds"
+  else
+    "buzz"
   end
 end

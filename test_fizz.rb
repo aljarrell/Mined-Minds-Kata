@@ -20,4 +20,10 @@ class My_test < Minitest::Test
     def test_six
         assert_equal("minds",fizz(10))
     end
+    def test_seven
+      assert_equal("buzz",fizz(4))
+    end
+    def test_eight
+      assert_equal("buzz",fizz(7))
+    end
 end
